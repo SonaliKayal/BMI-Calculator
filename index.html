@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bmi-calculator">
+        <h1>BMI Calculator</h1>
+        
+        <div class="input-group">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" placeholder="Enter weight">
+            <div class="unit-toggle">
+                <button class="weight-unit active" data-unit="kg">kg</button>
+                <button class="weight-unit" data-unit="lbs">lbs</button>
+            </div>
+        </div>
+        
+        <div class="input-group">
+            <label for="height">Height:</label>
+            <input type="number" id="height" placeholder="Enter height">
+            <div class="unit-toggle">
+                <button class="height-unit active" data-unit="cm">cm</button>
+                <button class="height-unit" data-unit="inches">inches</button>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button id="calculate-btn">Calculate BMI</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        
+        <div class="result" id="result" style="display: none;">
+            <h2 id="bmi-value">Your BMI: </h2>
+            <p id="bmi-category">Category: </p>
+            <div class="bmi-scale">
+                <div class="scale-item" id="underweight">
+                    <span>Underweight</span>
+                    <span>&lt; 18.5</span>
+                </div>
+                <div class="scale-item" id="normal">
+                    <span>Normal</span>
+                    <span>18.5 - 24.9</span>
+                </div>
+                <div class="scale-item" id="overweight">
+                    <span>Overweight</span>
+                    <span>25 - 29.9</span>
+                </div>
+                <div class="scale-item" id="obese">
+                    <span>Obese</span>
+                    <span>≥ 30</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
