@@ -51,6 +51,9 @@ Obese	≥ 30
 
 
 
+
+
+
 🔗 View Project on GitHub Pages
 
 https://sonalikayal.github.io/BMI-Calculator/
@@ -58,6 +61,6 @@ https://sonalikayal.github.io/BMI-Calculator/
 
 📚 Learning Highlights
 
-DOM manipulation using JavaScript
-Applying responsive design principles with CSS
-Improving UI/UX for better user engagement
+- DOM manipulation using JavaScript
+- Applying responsive design principles with CSS
+- Improving UI/UX for better user engagement
